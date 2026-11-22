@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FOR THE CLOUT · Catálogo de gorras</title>
+  <meta name="description" content="Catálogo de gorras FOR THE CLOUT. Pide la tuya por WhatsApp.">
+  <meta name="theme-color" content="#000000">
+  <meta property="og:title" content="FOR THE CLOUT · Catálogo de gorras">
+  <meta property="og:description" content="Modelos únicos. Pide la tuya por WhatsApp.">
+  <meta property="og:image" content="img/logo.png">
+  <link rel="icon" href="img/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="encabezado">
+    <img class="logo" src="img/logo.png" alt="FOR THE CLOUT" width="668" height="602">
+    <p class="lema">Modelos únicos · Pieza por pieza</p>
+    <button class="btn btn-compartir" id="compartir" type="button">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16a3 3 0 0 0-2.4 1.2l-6.7-3.4a3 3 0 0 0 0-1.6l6.7-3.4A3 3 0 1 0 15 7l-6.7 3.4a3 3 0 1 0 0 3.2L15 17a3 3 0 1 0 3-1Z"/></svg>
+      Compartir catálogo
+    </button>
+  </header>
+
+  <main>
+    <section class="seccion seccion-ofertas" id="seccion-ofertas" hidden>
+      <div class="separador" aria-hidden="true"></div>
+      <h2 class="titulo"><span class="etiqueta">Ofertas</span></h2>
+      <div class="grid" id="ofertas"></div>
+    </section>
+
+    <section class="seccion">
+      <div class="separador" aria-hidden="true"></div>
+      <h2 class="titulo">Catálogo</h2>
+      <div class="grid" id="catalogo"></div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="separador" aria-hidden="true"></div>
+    <p>Pedidos y dudas por WhatsApp</p>
+    <a class="pie-numero" id="pie-whatsapp" href="#" target="_blank" rel="noopener"></a>
+    <p class="pie-marca">© <span id="anio"></span> FOR THE CLOUT</p>
+  </footer>
+
+  <div class="aviso" id="aviso" role="status" aria-live="polite"></div>
+
+  <script src="productos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
