@@ -1,0 +1,53 @@
+backend:
+  name: github
+  repo: rui8patricio8-bot/for-the-clout
+  branch: main
+  base_url: https://CAMBIAR-POR-TU-WORKER.workers.dev
+  auth_endpoint: auth
+
+media_folder: img
+public_folder: img
+
+collections:
+  - name: catalogo
+    label: "Catálogo"
+    files:
+      - name: productos
+        label: "Gorras y WhatsApp"
+        file: data/productos.json
+        format: json
+        fields:
+          - label: "Número de WhatsApp (10 dígitos, sin +52)"
+            name: whatsapp
+            widget: string
+          - label: "Gorras"
+            name: productos
+            widget: list
+            summary: "{{fields.nombre}} · ${{fields.precio}} · {{fields.cantidad}} pza"
+            fields:
+              - label: "Modelo"
+                name: nombre
+                widget: string
+              - label: "Precio normal (MXN)"
+                name: precio
+                widget: number
+                value_type: int
+                min: 0
+              - label: "Foto"
+                name: foto
+                widget: image
+              - label: "¿En oferta?"
+                name: oferta
+                widget: boolean
+                default: false
+              - label: "Precio de oferta (MXN)"
+                name: precioOferta
+                widget: number
+                value_type: int
+                min: 0
+                required: false
+              - label: "Piezas disponibles (0 = agotado)"
+                name: cantidad
+                widget: number
+                value_type: int
+                min: 0

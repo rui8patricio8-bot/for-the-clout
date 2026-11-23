@@ -1,4 +1,4 @@
-/* Lógica del catálogo. Para cambiar gorras edita productos.js, no este archivo. */
+/* Lógica del catálogo. Para cambiar gorras usa el panel /admin, no este archivo. */
 (function () {
   const formatoMXN = new Intl.NumberFormat("es-MX", {
     style: "currency",
@@ -8,7 +8,8 @@
   });
   const precio = (n) => formatoMXN.format(n).replace("MX$", "$");
 
-  const numeroLimpio = String(WHATSAPP).replace(/\D/g, "").slice(-10);
+  let numeroLimpio = "";
+  let PRODUCTOS = [];
 
   function enlaceWhatsApp(mensaje) {
     return "https://wa.me/52" + numeroLimpio + "?text=" + encodeURIComponent(mensaje);
@@ -163,7 +164,14 @@
     document.getElementById("anio").textContent = new Date().getFullYear();
   }
 
-  render();
-  pie();
   document.getElementById("compartir").addEventListener("click", compartir);
+
+  fetch("data/productos.json", { cache: "no-cache" })
+    .then((r) => r.json())
+    .then((datos) => {
+      numeroLimpio = String(datos.whatsapp).replace(/\D/g, "").slice(-10);
+      PRODUCTOS = datos.productos || [];
+      render();
+      pie();
+    });
 })();
