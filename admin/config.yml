@@ -2,7 +2,7 @@ backend:
   name: github
   repo: rui8patricio8-bot/for-the-clout
   branch: main
-  base_url: https://CAMBIAR-POR-TU-WORKER.workers.dev
+  base_url: https://for-the-clout-auth.rui8patricio8.workers.dev
   auth_endpoint: auth
 
 media_folder: img
