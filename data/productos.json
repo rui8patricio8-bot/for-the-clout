@@ -136,6 +136,14 @@
       "oferta": true,
       "precioOferta": 500,
       "cantidad": 1
+    },
+    {
+      "nombre": "Chucky Hats Diablo Morada",
+      "precio": 550,
+      "foto": "img/gorra-chucky-hats-diablo-morada.webp",
+      "oferta": true,
+      "precioOferta": 500,
+      "cantidad": 1
     }
   ]
 }
