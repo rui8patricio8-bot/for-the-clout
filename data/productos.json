@@ -7,7 +7,7 @@
       "foto": "img/gorra-barbas-world-tour.webp",
       "oferta": true,
       "precioOferta": 500,
-      "cantidad": 2
+      "cantidad": 1
     },
     {
       "nombre": "LA LA LA MESH WHITE/PINK",
@@ -15,7 +15,7 @@
       "foto": "img/gorra-la-la-la-mesh-white-pink.webp",
       "oferta": true,
       "precioOferta": 500,
-      "cantidad": 2
+      "cantidad": 1
     },
     {
       "nombre": "Bigg Boss San Judas Verde",
@@ -63,7 +63,7 @@
       "foto": "img/gorra-sad-boyz-2-0.webp",
       "oferta": true,
       "precioOferta": 500,
-      "cantidad": 1
+      "cantidad": 0
     },
     {
       "nombre": "Dandy X Sad Boyz II Clave Ali II",
@@ -111,7 +111,7 @@
       "foto": "img/gorra-ab-ny-thorned-24k.webp",
       "oferta": true,
       "precioOferta": 500,
-      "cantidad": 1
+      "cantidad": 0
     },
     {
       "nombre": "El Boo 2 Chucky Hats",
@@ -143,6 +143,38 @@
       "nombre": "Rude Morada",
       "precio": 500,
       "precioOferta": 450,
+      "cantidad": 1
+    },
+    {
+      "oferta": true,
+      "foto": "img/gorra-2.webp",
+      "nombre": "31 hats school",
+      "precio": 550,
+      "precioOferta": 500,
+      "cantidad": 1
+    },
+    {
+      "oferta": true,
+      "foto": "img/gorra-3.webp",
+      "nombre": "Exodo rosa",
+      "precio": 550,
+      "precioOferta": 500,
+      "cantidad": 1
+    },
+    {
+      "oferta": true,
+      "foto": "img/gorra-4.webp",
+      "nombre": "31 hats camu",
+      "precio": 550,
+      "precioOferta": 400,
+      "cantidad": 1
+    },
+    {
+      "oferta": true,
+      "foto": "img/gorra-5.webp",
+      "nombre": "Rico muerto #1",
+      "precio": 550,
+      "precioOferta": 500,
       "cantidad": 1
     }
   ]
