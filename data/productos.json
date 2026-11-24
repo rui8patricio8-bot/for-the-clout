@@ -5,7 +5,7 @@
       "nombre": "Barbas Hats World Tour",
       "precio": 550,
       "foto": "img/gorra-barbas-world-tour.webp",
-      "oferta": true,
+      "oferta": false,
       "precioOferta": 500,
       "cantidad": 1
     },
@@ -13,7 +13,7 @@
       "nombre": "LA LA LA MESH WHITE/PINK",
       "precio": 550,
       "foto": "img/gorra-la-la-la-mesh-white-pink.webp",
-      "oferta": true,
+      "oferta": false,
       "precioOferta": 500,
       "cantidad": 1
     },
@@ -21,7 +21,7 @@
       "nombre": "Bigg Boss San Judas Verde",
       "precio": 550,
       "foto": "img/gorra-bigg-boss-san-judas-verde.webp",
-      "oferta": true,
+      "oferta": false,
       "precioOferta": 500,
       "cantidad": 2
     },
@@ -29,7 +29,7 @@
       "nombre": "Gorras Chava Hats Diablo Y Fantasma",
       "precio": 550,
       "foto": "img/gorra-chava-hats-diablo-y-fantasma.webp",
-      "oferta": true,
+      "oferta": false,
       "precioOferta": 500,
       "cantidad": 1
     },
@@ -37,7 +37,7 @@
       "nombre": "All Star",
       "precio": 550,
       "foto": "img/gorra-all-star.webp",
-      "oferta": true,
+      "oferta": false,
       "precioOferta": 500,
       "cantidad": 1
     },
@@ -45,7 +45,7 @@
       "nombre": "Rich Life Black",
       "precio": 550,
       "foto": "img/gorra-rich-life-black.webp",
-      "oferta": true,
+      "oferta": false,
       "precioOferta": 500,
       "cantidad": 1
     },
@@ -53,7 +53,7 @@
       "nombre": "B Skull",
       "precio": 550,
       "foto": "img/gorra-b-skull.webp",
-      "oferta": true,
+      "oferta": false,
       "precioOferta": 500,
       "cantidad": 1
     },
@@ -61,7 +61,7 @@
       "nombre": "Dandy x Junior H Sad Boyz 2.0 (Y LLoro)",
       "precio": 550,
       "foto": "img/gorra-sad-boyz-2-0.webp",
-      "oferta": true,
+      "oferta": false,
       "precioOferta": 500,
       "cantidad": 0
     },
@@ -69,7 +69,7 @@
       "nombre": "Dandy X Sad Boyz II Clave Ali II",
       "precio": 550,
       "foto": "img/gorra-clave-ali-ii.webp",
-      "oferta": true,
+      "oferta": false,
       "precioOferta": 500,
       "cantidad": 1
     },
@@ -77,23 +77,23 @@
       "nombre": "Rude Awakenings Calvary Negro Y Blanco",
       "precio": 550,
       "foto": "img/gorra-rude-awakenings-calvary.webp",
-      "oferta": true,
+      "oferta": false,
       "precioOferta": 500,
       "cantidad": 1
     },
     {
       "nombre": "31 Hats And Still",
-      "precio": 550,
+      "precio": 500,
       "foto": "img/gorra-31-hats-and-still.webp",
       "oferta": true,
-      "precioOferta": 500,
+      "precioOferta": 450,
       "cantidad": 1
     },
     {
       "nombre": "ThirtyOne - Universo Mago",
       "precio": 550,
       "foto": "img/gorra-universo-mago.webp",
-      "oferta": true,
+      "oferta": false,
       "precioOferta": 500,
       "cantidad": 1
     },
@@ -101,7 +101,7 @@
       "nombre": "Ultima Cena",
       "precio": 550,
       "foto": "img/gorra-ultima-cena.webp",
-      "oferta": true,
+      "oferta": false,
       "precioOferta": 500,
       "cantidad": 1
     },
@@ -109,7 +109,7 @@
       "nombre": "AB Ny Thorned 24k",
       "precio": 550,
       "foto": "img/gorra-ab-ny-thorned-24k.webp",
-      "oferta": true,
+      "oferta": false,
       "precioOferta": 500,
       "cantidad": 0
     },
@@ -117,7 +117,7 @@
       "nombre": "El Boo 2 Chucky Hats",
       "precio": 550,
       "foto": "img/gorra-el-boo-2-chucky-hats.webp",
-      "oferta": true,
+      "oferta": false,
       "precioOferta": 500,
       "cantidad": 1
     },
@@ -125,7 +125,7 @@
       "nombre": "Jc Hats x Dandy Hats",
       "precio": 550,
       "foto": "img/gorra-jc-hats-x-dandy-hats.webp",
-      "oferta": true,
+      "oferta": false,
       "precioOferta": 500,
       "cantidad": 1
     },
@@ -133,7 +133,7 @@
       "nombre": "Canelo WBC BLK",
       "precio": 550,
       "foto": "img/gorra-canelo-wbc-blk.webp",
-      "oferta": true,
+      "oferta": false,
       "precioOferta": 500,
       "cantidad": 1
     },
@@ -146,7 +146,7 @@
       "cantidad": 1
     },
     {
-      "oferta": true,
+      "oferta": false,
       "foto": "img/gorra-2.webp",
       "nombre": "31 hats school",
       "precio": 550,
@@ -154,7 +154,7 @@
       "cantidad": 1
     },
     {
-      "oferta": true,
+      "oferta": false,
       "foto": "img/gorra-3.webp",
       "nombre": "Exodo rosa",
       "precio": 550,
@@ -165,16 +165,208 @@
       "oferta": true,
       "foto": "img/gorra-4.webp",
       "nombre": "31 hats camu",
-      "precio": 550,
+      "precio": 500,
       "precioOferta": 400,
       "cantidad": 1
     },
     {
-      "oferta": true,
+      "oferta": false,
       "foto": "img/gorra-5.webp",
       "nombre": "Rico muerto #1",
       "precio": 550,
       "precioOferta": 500,
+      "cantidad": 1
+    },
+    {
+      "oferta": false,
+      "foto": "img/gorra-6.webp",
+      "nombre": "Rich or Dead",
+      "precio": 550,
+      "precioOferta": 500,
+      "cantidad": 2
+    },
+    {
+      "oferta": true,
+      "foto": "img/gorra-7.webp",
+      "nombre": "Shifu Camu",
+      "precio": 500,
+      "precioOferta": 450,
+      "cantidad": 1
+    },
+    {
+      "oferta": false,
+      "foto": "img/gorra-8.webp",
+      "nombre": "x caps scream",
+      "precio": 550,
+      "precioOferta": 500,
+      "cantidad": 1
+    },
+    {
+      "oferta": true,
+      "foto": "img/gorra-9.webp",
+      "nombre": "Rico Muerto R",
+      "precio": 550,
+      "precioOferta": 500,
+      "cantidad": 2
+    },
+    {
+      "oferta": true,
+      "foto": "img/gorra-10.webp",
+      "nombre": "Barbas Recors",
+      "precio": 500,
+      "precioOferta": 450,
+      "cantidad": 1
+    },
+    {
+      "oferta": true,
+      "foto": "img/gorra-11.webp",
+      "nombre": "Skull Morada",
+      "precio": 500,
+      "precioOferta": 450,
+      "cantidad": 1
+    },
+    {
+      "oferta": true,
+      "foto": "img/gorra-12.webp",
+      "nombre": "Shifu Valeria ",
+      "precio": 500,
+      "precioOferta": 450,
+      "cantidad": 1
+    },
+    {
+      "oferta": true,
+      "foto": "img/gorra-13.webp",
+      "nombre": "Gallo Fino #1",
+      "precio": 500,
+      "precioOferta": 450,
+      "cantidad": 1
+    },
+    {
+      "oferta": true,
+      "foto": "img/gorra-14.webp",
+      "nombre": "San Judas Dorada",
+      "precio": 550,
+      "precioOferta": 500,
+      "cantidad": 1
+    },
+    {
+      "oferta": false,
+      "foto": "img/gorra-15.webp",
+      "nombre": "Chucky Hats Diablo Morada ",
+      "precio": 550,
+      "precioOferta": 500,
+      "cantidad": 1
+    },
+    {
+      "oferta": false,
+      "foto": "img/gorra-29.webp",
+      "nombre": "Goring Bross Mariposa ",
+      "precio": 500,
+      "precioOferta": 450,
+      "cantidad": 1
+    },
+    {
+      "oferta": false,
+      "foto": "img/gorra-16.webp",
+      "nombre": "New Era 7 Cerrada #1",
+      "precio": 480,
+      "precioOferta": 420,
+      "cantidad": 1
+    },
+    {
+      "oferta": false,
+      "foto": "img/gorra-18.webp",
+      "nombre": "New Era 7 Cerrada #2",
+      "precio": 480,
+      "precioOferta": 420,
+      "cantidad": 1
+    },
+    {
+      "oferta": false,
+      "foto": "img/gorra-17.webp",
+      "nombre": "New Era 7 1/4 Cerrada #3",
+      "precio": 480,
+      "precioOferta": 420,
+      "cantidad": 1
+    },
+    {
+      "oferta": false,
+      "foto": "img/gorra-19.webp",
+      "nombre": "New Era 7 1/4 #4",
+      "precio": 480,
+      "precioOferta": 420,
+      "cantidad": 1
+    },
+    {
+      "oferta": false,
+      "foto": "img/gorra-20.webp",
+      "nombre": "New Era 7 1/2",
+      "precio": 480,
+      "precioOferta": 420,
+      "cantidad": 1
+    },
+    {
+      "oferta": false,
+      "foto": "img/gorra-21.webp",
+      "nombre": "New era Ajustable #1",
+      "precio": 450,
+      "precioOferta": 400,
+      "cantidad": 1
+    },
+    {
+      "oferta": false,
+      "foto": "img/gorra-22.webp",
+      "nombre": "New Era Ajustable #2",
+      "precio": 450,
+      "precioOferta": 400,
+      "cantidad": 1
+    },
+    {
+      "oferta": false,
+      "nombre": "New Era Ajustable #3",
+      "foto": "img/gorra-23.webp",
+      "precio": 450,
+      "precioOferta": 400,
+      "cantidad": 1
+    },
+    {
+      "oferta": false,
+      "nombre": "New Era Ajustable #4",
+      "foto": "img/gorra-24.webp",
+      "precio": 450,
+      "precioOferta": 400,
+      "cantidad": 1
+    },
+    {
+      "oferta": false,
+      "nombre": "New Era Ajustable #5",
+      "precio": 450,
+      "foto": "img/gorra-25.webp",
+      "precioOferta": 400,
+      "cantidad": 1
+    },
+    {
+      "oferta": false,
+      "nombre": "New Era Ajustable #6",
+      "precio": 450,
+      "foto": "img/gorra-26.webp",
+      "precioOferta": 400,
+      "cantidad": 1
+    },
+    {
+      "oferta": false,
+      "nombre": "New Era Ajustable #7",
+      "precio": 450,
+      "foto": "img/gorra-27.webp",
+      "precioOferta": 400,
+      "cantidad": 1
+    },
+    {
+      "oferta": false,
+      "nombre": "New Era Ajustable #8",
+      "precio": 450,
+      "foto": "img/gorra-28.webp",
+      "precioOferta": 400,
       "cantidad": 1
     }
   ]
